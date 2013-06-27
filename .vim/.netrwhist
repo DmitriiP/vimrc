@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/etc/wpa_supplicant'
+let g:netrw_dirhist_2='/home/di/.config/awesome'
+let g:netrw_dirhist_3='/usr/share/awesome/themes/zenburn'
