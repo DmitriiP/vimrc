@@ -1,0 +1,33 @@
+[submodule ".vim/bundle/jedi-vim"]
+	path = .vim/bundle/jedi-vim
+	url = https://github.com/davidhalter/jedi-vim.git
+[submodule ".vim/bundle/cobalt.vim"]
+	path = .vim/bundle/cobalt.vim
+	url = https://github.com/sfsekaran/cobalt.vim.git
+[submodule ".vim/bundle/rainbow"]
+	path = .vim/bundle/rainbow
+	url = https://github.com/kien/rainbow_parentheses.vim.git
+[submodule ".vim/bundle/syntastic"]
+	path = .vim/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule ".vim/bundle/taghighlight"]
+	path = .vim/bundle/taghighlight
+	url = https://github.com/vim-scripts/TagHighlight.git
+[submodule ".vim/bundle/tcomment_vim"]
+	path = .vim/bundle/tcomment_vim
+	url = https://github.com/tomtom/tcomment_vim.git
+[submodule ".vim/bundle/vim-coffee-script"]
+	path = .vim/bundle/vim-coffee-script
+	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule ".vim/bundle/vim-colors-solarized"]
+	path = .vim/bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule ".vim/bundle/vim-jinja"]
+	path = .vim/bundle/vim-jinja
+	url = https://github.com/mitsuhiko/vim-jinja.git
+[submodule ".vim/bundle/vim-python-ftplugin"]
+	path = .vim/bundle/vim-python-ftplugin
+	url = https://github.com/tarmack/vim-python-ftplugin.git
+[submodule ".vim/bundle/vim-virtualenv"]
+	path = .vim/bundle/vim-virtualenv
+	url = https://github.com/jmcantrell/vim-virtualenv.git
