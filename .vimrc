@@ -1,6 +1,5 @@
 "Load modules from bundle 
 "
-
 syntax on
 call pathogen#infect()
 
@@ -14,6 +13,8 @@ filetype plugin indent on
 autocmd FileType python set complete+=k~/.vim/syntax/python.vim "isk+=.,(
 
 au FileType python setlocal tabstop=8 expandtab shiftwidth=4 softtabstop=4
+au FileType html setlocal tabstop=8 expandtab shiftwidth=2 softtabstop=2
+au FileType htmldjango setlocal tabstop=8 expandtab shiftwidth=2 softtabstop=2
 set modeline
 set foldmethod=indent
 set foldlevel=99
@@ -22,7 +23,9 @@ set hlsearch
 set laststatus=2
 set statusline=%#Comment#%{GitBranch()}\ %t%y%r%=\ %{strftime('%a\ %b\ %e\ %I:%M\ %p')}\ line\:\ %l\/%L\ column\:\ %c
 
-au FileType python set omnifunc=pythoncomplete#Complete
+" au FileType python set omnifunc=pythoncomplete#Complete
+" au FileType python set omnifunc=jedi#complitions
+let g:jedi#auto_initialization = 0
 "Close documentation buffer automatically
 autocmd CursorMovedI * if pumvisible() == 0|pclose|endif
 autocmd InsertLeave * if pumvisible() == 0|pclose|endif
@@ -45,6 +48,8 @@ nmap <F8> :TagbarToggle<CR>
 
 nnoremap fq <ESC> :call CleanClose(1)<CR>
 nnoremap fc <ESC>:call CleanClose(0)<CR>
+nnoremap <C-F12> <ESC> :call CleanClose(1)<CR>
+nnoremap <C-F1> <ESC>:call CleanClose(0)<CR>
 
 function! CleanClose(tosave)
 	if (a:tosave == 1)
@@ -83,3 +88,7 @@ let python_highlight_all = 1
 
 "Remove trailing whitespaces from lines
 autocmd BufWritePre *.py normal m`:%s/\s\+$//e``
+
+let g:virtualenv_directory = '~/code/venvs'
+
+let g:rainbow_active = 1
