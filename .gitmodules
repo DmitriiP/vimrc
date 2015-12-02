@@ -34,3 +34,12 @@
 [submodule ".vim/bundle/bclose"]
 	path = .vim/bundle/bclose
 	url = https://github.com/rbgrouleff/bclose.vim.git
+[submodule ".vim/bundle/zenburn"]
+	path = .vim/bundle/zenburn
+	url = https://github.com/jnurmine/Zenburn.git
+[submodule ".vim/bundle/warm_grey"]
+	path = .vim/bundle/warm_grey
+	url = https://github.com/vim-scripts/Warm-grey.git
+[submodule ".vim/bundle/molokai"]
+	path = .vim/bundle/molokai
+	url = https://github.com/tomasr/molokai.git
