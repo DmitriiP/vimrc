@@ -58,3 +58,9 @@
 [submodule ".vim/bundle/tagbar"]
 	path = .vim/bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git
+[submodule ".vim/bundle/json-syntax"]
+	path = .vim/bundle/json-syntax
+	url = https://github.com/elzr/vim-json.git
+[submodule ".vim/bundle/python-syntax"]
+	path = .vim/bundle/python-syntax
+	url = https://github.com/hdima/python-syntax.git
