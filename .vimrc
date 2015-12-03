@@ -21,7 +21,7 @@ set foldlevel=99
 set hlsearch
 
 set laststatus=2
-set statusline=%#Comment#%{GitBranch()}\ %t%y%r%=\ %{strftime('%a\ %b\ %e\ %I:%M\ %p')}\ line\:\ %l\/%L\ column\:\ %c
+" set statusline=%#Comment#%{GitBranch()}\ %t%y%r%=\ %{strftime('%a\ %b\ %e\ %I:%M\ %p')}\ line\:\ %l\/%L\ column\:\ %c
 
 " au FileType python set omnifunc=pythoncomplete#Complete
 " au FileType python set omnifunc=jedi#complitions
