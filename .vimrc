@@ -92,3 +92,4 @@ autocmd BufWritePre *.py normal m`:%s/\s\+$//e``
 let g:virtualenv_directory = '~/code/venvs'
 
 let g:rainbow_active = 1
+let g:vim_json_syntax_conceal = 0
