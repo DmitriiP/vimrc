@@ -93,3 +93,5 @@ let g:virtualenv_directory = '~/code/venvs'
 
 let g:rainbow_active = 1
 let g:vim_json_syntax_conceal = 0
+
+let g:airline_powerline_fonts = 1
