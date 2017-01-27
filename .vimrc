@@ -8,9 +8,6 @@ set tabstop=8 expandtab shiftwidth=4 softtabstop=4
 
 
 filetype plugin indent on
-" filetype plugin on
-
-autocmd FileType python set complete+=k~/.vim/syntax/python.vim "isk+=.,(
 
 au FileType python setlocal tabstop=8 expandtab shiftwidth=4 softtabstop=4
 au FileType html setlocal tabstop=8 expandtab shiftwidth=2 softtabstop=2
@@ -23,9 +20,6 @@ set hlsearch
 set laststatus=2
 " set statusline=%#Comment#%{GitBranch()}\ %t%y%r%=\ %{strftime('%a\ %b\ %e\ %I:%M\ %p')}\ line\:\ %l\/%L\ column\:\ %c
 
-" au FileType python set omnifunc=pythoncomplete#Complete
-" au FileType python set omnifunc=jedi#complitions
-let g:jedi#auto_initialization = 0
 "Close documentation buffer automatically
 autocmd CursorMovedI * if pumvisible() == 0|pclose|endif
 autocmd InsertLeave * if pumvisible() == 0|pclose|endif
@@ -69,13 +63,6 @@ function! CleanClose(tosave)
 	exe "bd".todelbufNr
 	"call Buftabs_show()
 endfunction
-
-
-
-
-"Error showing
-let g:syntastic_enable_signs=1
-
 
 "Nerd tree
 let NERDTreeIgnore=['\.pyc','\~']

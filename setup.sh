@@ -21,8 +21,7 @@ echo "Starting basic setup."
 git clone git@github.com:powerline/fonts.git
 fonts/install.sh
 rm -rf fonts
-git submodule init
-git submodule update
+git submodule update --init --recursive
 cp .vimrc ~
 cp .gvimrc ~
 cp -r .vim ~/
