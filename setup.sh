@@ -18,7 +18,7 @@ if command_exists git; then
     echo "git exists yay!"
 fi
 echo "Starting basic setup."
-git clone git@github.com:powerline/fonts.git
+git clone https://github.com/powerline/fonts.git
 fonts/install.sh
 rm -rf fonts
 git submodule update --init --recursive
