@@ -26,7 +26,8 @@ highlight Pmenu ctermbg=238 gui=bold
 set cursorline
 
 nnoremap <F5> :bn!<CR>
-nnoremap <F6> :bp!<CR> 
+nnoremap <F6> :bp!<CR>
+nmap <F7> :NERDTreeToggle<CR>
 nmap <F8> :TagbarToggle<CR>
 
 nnoremap fq <ESC> :call CleanClose(1)<CR>
