@@ -31,7 +31,7 @@ git clone https://github.com/powerline/fonts.git
 fonts/install.sh
 rm -rf fonts
 
-git submodule update --init --recursive
+git submodule update --init --recursive --remote
 cp .vimrc ~
 cp .gvimrc ~
 cp -r .vim ~/

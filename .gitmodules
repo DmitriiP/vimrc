@@ -25,9 +25,6 @@
 [submodule ".vim/bundle/vim-jinja"]
 	path = .vim/bundle/vim-jinja
 	url = https://github.com/mitsuhiko/vim-jinja.git
-[submodule ".vim/bundle/vim-python-ftplugin"]
-	path = .vim/bundle/vim-python-ftplugin
-	url = https://github.com/tarmack/vim-python-ftplugin.git
 [submodule ".vim/bundle/vim-virtualenv"]
 	path = .vim/bundle/vim-virtualenv
 	url = https://github.com/jmcantrell/vim-virtualenv.git
